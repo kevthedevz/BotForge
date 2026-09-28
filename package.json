@@ -1,0 +1,21 @@
+{
+  "name": "botforge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    ".": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tryforge/forge.db": "github:tryforge/forgedb",
+    "@tryforge/forgescript": "github:tryforge/ForgeScript",
+    "better-sqlite3": "^12.11.1",
+    "dotenv": "^16.4.5",
+    "sqlite3": "^6.0.1"
+  }
+}
